@@ -3,7 +3,7 @@
 <!-- Nosferatu Theme v0.7.0
 #
 # https://github.com/ameily/nosferatu
-# 
+#
 # This is a fork of the Dark-Dracula Theme (https://github.com/gerane/VSCodeThemes).
 -->
 <plist version="1.0">
@@ -520,6 +520,92 @@
 				<string>#ffb86c</string>
 			</dict>
 		</dict>
+
+		<!-- Testing -->
+		<!-- variables in PowerShell -->
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb86c</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Markup Quote</string>
+			<key>scope</key>
+			<string>markup.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9872A2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Lists</string>
+			<key>scope</key>
+			<string>markup.punctuation.list</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9AA83A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Styling</string>
+			<key>scope</key>
+			<string>markup.bold, markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6089B4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Inline</string>
+			<key>scope</key>
+			<string>markup.inline.raw</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF0080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Headings</string>
+			<key>scope</key>
+			<string>markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D0B344</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Setext Header</string>
+			<key>scope</key>
+			<string>markup.heading.setext</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D0B344</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>83091B89-765E-4F0D-9275-0EC6CB084126</string>
